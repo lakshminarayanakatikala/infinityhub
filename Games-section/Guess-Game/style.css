@@ -1,6 +1,6 @@
 
 body{
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .bg-container {
   background-color: #246db6;
@@ -63,3 +63,4 @@ body{
   margin: 20px;
   padding: 10px;
 }
+

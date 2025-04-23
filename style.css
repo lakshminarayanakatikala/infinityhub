@@ -59,6 +59,27 @@ body {
   color: #00bcd4; 
 }
 
+#infinityhub-title {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background: linear-gradient(60deg, #0d6efd, #7121f0e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  #infinityhub-title {
+    font-size: 1.3rem;
+  }
+}
+
 /* Offcanvas styles */
 .offcanvas {
   background-color: #444; /* Matches dark theme of navbar */
